@@ -1,0 +1,351 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,li{
+    list-style: none;    
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* COMMON CSS END */
+
+/* NAVBAR CSS START */
+#navbar{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-wrapper{
+    display: flex;
+}
+.logo{
+    width: 20%;
+}
+.nav-item{
+    width: 80%;
+}
+.nav-item ul{
+    display: flex;
+    justify-content: end;
+}
+.nav-item ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: all linear 0.5s;
+}
+.nav-item ul li:last-child a{
+    margin-right: 0px;
+}
+.nav-item ul li:first-child a{
+    color: black;
+}
+.nav-item ul li a:hover{
+    color: black;
+}
+/* NAVBAR CSS END */
+
+/* BANNER CSS START */
+#banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 462px 0px;
+}
+#banner .banner-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding-bottom: 38px;
+    color: #FFC178;
+}
+#banner .banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 100px;
+    color: white;
+}
+#banner .banner-text h1 span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 100px;
+    color: white;
+}
+/* BANNER CSS END */
+
+/* HOLIDAY CSS START */
+#holiday{
+    background: rgb(0, 0, 0);
+    padding: 290px 0;
+}
+#holiday .holiday-details{
+    display: flex;
+}
+#holiday .holiday-right{
+    margin-left: 140px;
+    padding-top: 40px;
+}
+#holiday .holiday-details .holiday-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784; 
+}
+#holiday .holiday-details .holiday-right h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-transform: uppercase;
+    width: 496px;
+    color: #FFFFFF;
+    padding-top: 13px;
+}
+#holiday .holiday-details .holiday-right .you{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 587px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding-top: 13px;
+}
+#holiday .holiday-details .holiday-right a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;  
+    text-transform: uppercase;
+    color: #FBD784;
+    padding-top: 66px;
+}
+/* HOLIDAY CSS END */
+
+/* BROMO CSS START */
+#bromo{
+    background: rgb(2, 2, 2);
+}
+#bromo .bromo-details{
+    background: url(../images/bromo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 560px;
+    padding-bottom: 33px;
+    text-align: center;
+}
+#bromo .bromo-details .bromo-heading h6{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #FBD784;
+    padding-bottom: 13px;
+}
+#bromo .bromo-details .bromo-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 932px;
+    line-height: 87px;
+    padding-bottom: 14px;
+    margin: 0 auto;
+}
+#bromo .bromo-details .bromo-title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 893px;
+    line-height: 32px;
+    padding-bottom: 26px;
+    margin: 0 auto;
+}
+#bromo .bromo-details .bromo-title a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;  
+    text-transform: uppercase;
+    color: #FBD784;
+    padding-top: 66px;
+}
+/* BROMO CSS END */
+
+/* INDONESIAN CSS START */
+#indonesian{
+    background: rgb(0, 0, 0);
+    padding: 150px 0;
+}
+#indonesian .indonesian-details{
+    display: flex;
+}
+#indonesian .indonesian-details .indonesian-left{
+    margin-right: 109px;
+    padding-top: 100px;
+}
+#indonesian .indonesian-details .indonesian-left p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784; 
+}
+#indonesian .indonesian-details .indonesian-left h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-transform: uppercase;
+    width: 496px;
+    color: #FFFFFF;
+    padding-top: 13px;
+}
+#indonesian .indonesian-details .indonesian-left .known{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    width: 587px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    padding-top: 13px;
+}
+#indonesian .indonesian-details .indonesian-left a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;  
+    text-transform: uppercase;
+    color: #FBD784;
+    padding-top: 66px;
+}
+/* INDONESIAN CSS END */
+
+/* FOOTER CSS START */
+#footer{
+    background: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer-top-right{
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top-right p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+#footer .footer-top-right button{
+    background: #FFA343;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 18px 75px;
+    border-radius: 10px;
+    border: 1px solid #FFA343;
+    margin-left: 18px;
+}
+.footer-middle-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+#footer .footer-middle-left h4{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    color: white;
+    width: 393px;
+    margin-bottom: 36px;
+}
+#footer .footer-middle-left p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+#footer .footer-icons i{
+    font-size: 20px;
+    color: white;
+    margin-right: 28px;
+}
+#footer .footer-middle-right{
+    display: flex;
+    justify-content: end;
+}
+#footer .footer-middle-right ul li{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 58px;
+}
+.copyright p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+    justify-content: center;
+}
+/* FOOTER CSS END */
